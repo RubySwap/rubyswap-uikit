@@ -5,7 +5,7 @@ export const baseColors = {
   primary: "#EC1654",
   primaryBright: "#53DEE9",
   primaryDark: "#0098A1",
-  secondary: "#7645D9",
+  secondary: "#ec1654",
   success: "#31D0AA",
   warning: "#FFB237",
 };
@@ -34,7 +34,7 @@ export const lightColors: Colors = {
   textSubtle: "#FD7FA0",
   disabled: "#E9EAEB",
   gradients: {
-    bubblegum: "linear-gradient(139.73deg, #E5FDFF 0%, #F3EFFF 100%)",
+    bubblegum: "linear-gradient(139.73deg,#fff5f8 0%,#ffe4eb 100%)",
     inverseBubblegum: "linear-gradient(139.73deg, #F3EFFF 0%, #E5FDFF 100%)",
     cardHeader: "linear-gradient(111.68deg, #F2ECF2 0%, #E8F2F6 100%)",
     blue: "linear-gradient(180deg, #A7E8F1 0%, #94E1F2 100%)",
@@ -47,7 +47,7 @@ export const lightColors: Colors = {
 export const darkColors: Colors = {
   ...baseColors,
   ...additionalColors,
-  secondary: "#9A6AFF",
+  secondary: "#ec1654",
   background: "#08060B",
   backgroundDisabled: "#3c3742",
   backgroundAlt: "#27262c",
@@ -65,7 +65,7 @@ export const darkColors: Colors = {
   textSubtle: "#F06464",
   disabled: "#524B63",
   gradients: {
-    bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
+    bubblegum: "linear-gradient(139.73deg, #48474c 0%, #48474c 100%)",
     inverseBubblegum: "linear-gradient(139.73deg, #3D2A54 0%, #313D5C 100%)",
     cardHeader: "linear-gradient(166.77deg, #3B4155 0%, #3A3045 100%)",
     blue: "linear-gradient(180deg, #00707F 0%, #19778C 100%)",
